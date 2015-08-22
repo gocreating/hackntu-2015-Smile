@@ -1,5 +1,5 @@
 import React from 'react';
-import {TabbedArea, TabPane} from 'react-bootstrap';
+import {TabbedArea, TabPane, Button} from 'react-bootstrap';
 import Slider from '../components/slider.jsx';
 import SmileLayout from '../layouts/smileLayout.jsx';
 
@@ -19,6 +19,7 @@ export default class RecordPage extends React.Component{
 
               <TabPane eventKey={2} tab="Blood Sugar">
                 <Slider className="slider" id="slider-blood-sugar" />
+                <Button className="send" bsStyle="info">Send to hospital</Button>
               </TabPane>
 
             </TabbedArea>
