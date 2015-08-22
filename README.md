@@ -7,6 +7,7 @@ The whole source codes & UIs of the project `smile` created at NTU hackathon 201
 ### Installation
 
 ```
+$ cd web
 $ npm install
 $ gulp build -d
 ```
